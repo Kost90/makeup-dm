@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/logo/120_120-1.svg";
 import styles from "./Footer.module.css";
+import FacebookIcon from "../svgicon/FacebookIcon";
+import InstagramIcon from "../svgicon/InstagramIcon";
 
 function Footer() {
   return (
@@ -35,6 +37,19 @@ function Footer() {
           <p className="text-xs md:text-Medium text-medium-gray">
             Follow me on social media:
           </p>
+          <div className="flex items-center gap-5 md:gap-10">
+            <Link
+              href={
+                "https://www.instagram.com/mariadontsova_makeup/?igsh=MWU0ajV6cmFzaG84OQ%3D%3D"
+              }
+              target="blanc"
+            >
+              <InstagramIcon className="fill-white hover:fill-pink w-6 md:w-12" />
+            </Link>
+            <Link href={"https://www.facebook.com/boickomasha"} target="blanc">
+              <FacebookIcon className="fill-white hover:fill-pink w-6 md:w-12" />
+            </Link>
+          </div>
         </div>
       </Container>
     </div>

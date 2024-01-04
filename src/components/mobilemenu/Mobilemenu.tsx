@@ -10,7 +10,6 @@ type Props = {
 };
 
 function Mobilemenu({ isOpen, onClick }: Props) {
-    console.log(isOpen)
   const MenuVariants = {
     hidden: {
       opacity: 0,

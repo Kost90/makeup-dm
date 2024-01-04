@@ -5,5 +5,5 @@
   @apply flex items-center gap-2 md:gap-5;
 }
 .footer_container .links_container p {
-  @apply text-xs md:text-Large font-bold leading-6 text-white;
+  @apply text-xs md:text-Large font-bold leading-6 text-white hover:text-pink duration-75;
 }/*# sourceMappingURL=Footer.module.css.map */

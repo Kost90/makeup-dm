@@ -1,10 +1,9 @@
-.footer_container{
+.footer_container {
     @apply flex flex-col items-center gap-2 md:gap-5;
-    .links_container{
+    .links_container {
         @apply flex items-center gap-2 md:gap-5;
-        p{
-            @apply text-xs md:text-Large font-bold leading-6 text-white;
+        p {
+            @apply text-xs md:text-Large font-bold leading-6 text-white hover:text-pink duration-75;
         }
     }
-    
 }
