@@ -1,0 +1,9 @@
+.footer_container {
+  @apply flex flex-col items-center gap-2 md:gap-5;
+}
+.footer_container .links_container {
+  @apply flex items-center gap-2 md:gap-5;
+}
+.footer_container .links_container p {
+  @apply text-xs md:text-Large font-bold leading-6 text-white;
+}/*# sourceMappingURL=Footer.module.css.map */

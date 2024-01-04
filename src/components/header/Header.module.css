@@ -1,0 +1,6 @@
+.nav_links_container {
+  @apply hidden md:flex items-center gap-2 md:gap-5;
+}
+.nav_links_container p {
+  @apply text-Small md:text-Large font-bold leading-6;
+}/*# sourceMappingURL=Header.module.css.map */
