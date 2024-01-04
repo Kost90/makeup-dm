@@ -15,7 +15,7 @@ function Header() {
     setIsOpen((prev) => !prev);
   }, [isOpen]);
   return (
-    <div className="bg-pink w-full p-5 md:p-10 relative">
+    <div className="bg-white w-full p-5 md:p-10 relative">
       <Container>
         <div className="flex items-center justify-between gap-5">
           <Image

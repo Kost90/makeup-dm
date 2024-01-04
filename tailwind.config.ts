@@ -9,13 +9,18 @@ const config: Config = {
     "./src/ui/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      width:{
+        photo:'350px',
+        text:'500px',
+      }
+    },
     container: {
       center: true,
       padding: "1rem",
     },
     fontSize: {
-      Heding1: "64px",
+      Heding1: "60px",
       Heading2: "48px",
       Heading3: "36px",
       Xlarge: "20px",
