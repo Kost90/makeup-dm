@@ -1,7 +1,12 @@
 .photo_maria {
-  @apply w-52 h-80 md:h-auto md:w-photo;
+  @apply relative w-52 h-80 md:h-auto md:w-photo z-10 md:block hidden;
+  left: -59%;
 }
 
 .button_contatc {
   @apply flex items-center justify-center w-36 md:w-56 p-5 bg-dark text-white hover:bg-white hover:text-dark;
+}
+
+.svg_dm {
+  @apply block w-80 md:object-cover h-full lg:w-full md:overflow-visible z-0 md:absolute;
 }/*# sourceMappingURL=Wellsection.module.css.map */
