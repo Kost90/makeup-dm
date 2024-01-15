@@ -16,7 +16,7 @@ export default function Home() {
           <Aboutme />
         </Container>
       </section>
-      <section className="md:pt-16 md:pb-16 w-full">
+      <section className="md:pt-16 md:pb-16 w-full p-7 md:p-14">
         <Services/>
       </section>
     </div>

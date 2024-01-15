@@ -5,7 +5,7 @@ import { svgArr } from "./servicesData";
 function Services() {
   return (
     <Container>
-      <div className="text-center">
+      <div className="text-center mb-7 md:mb-16">
         <h1 className="text-Heading3 md:text-Heading2 lg:text-Heding1 font-semibold md:mb-6">
           Services
         </h1>
@@ -16,11 +16,11 @@ function Services() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-3 m-auto self-center gap-7 md:gap-12">
         {svgArr.map((el) => (
-          <div className="flex flex-col w-60 gap-6">
-            <Image src={el.svg} alt="picture" />
-            <h2 className="text-Large text-dark">{el.title}</h2>
+          <div className="flex flex-col w-60 gap-6 self-center justify-self-center">
+            <Image src={el.svg} alt="picture" width={86} className="h-32"/>
+            <h1 className="text-Large text-dark font-bold">{el.title}</h1>
             <p className="text-Small text-dark">{el.decription}</p>
           </div>
         ))}
