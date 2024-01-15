@@ -4,7 +4,7 @@
 }
 
 .button_contatc {
-  @apply flex items-center justify-center w-36 md:w-56 p-5 bg-dark text-white hover:bg-white hover:text-dark;
+  @apply flex items-center justify-center w-36 md:w-56 p-5 bg-dark text-white hover:bg-white hover:text-dark text-Medium font-semibold;
 }
 
 .svg_dm {

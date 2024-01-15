@@ -5,7 +5,7 @@ import { svgArr } from "./servicesData";
 function Services() {
   return (
     <Container>
-      <div className="text-center mb-7 md:mb-16">
+      <div className="text-center md:mb-16">
         <h1 className="text-Heading3 md:text-Heading2 lg:text-Heding1 font-semibold md:mb-6">
           Services
         </h1>

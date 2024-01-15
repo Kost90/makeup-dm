@@ -13,7 +13,13 @@ const config: Config = {
       width:{
         photo:'350px',
         text:'500px',
-      }
+      },
+      zIndex:{
+        "-1":"-1",
+      },
+      height:{
+        height:'420px',
+      },
     },
     container: {
       center: true,
