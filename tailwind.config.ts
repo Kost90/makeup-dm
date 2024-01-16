@@ -20,6 +20,9 @@ const config: Config = {
       height:{
         height:'420px',
       },
+      minHeight:{
+        minAbout:'445px',
+      }
     },
     container: {
       center: true,
