@@ -1,0 +1,12 @@
+.form_wrapper {
+    @apply flex flex-col w-full p-5 gap-6;
+    input {
+        @apply p-3 max-w-lg;
+    }
+    textarea {
+        @apply p-3 max-w-lg h-40 resize-none;
+    }
+    button {
+        @apply flex items-center justify-center w-36 md:w-56 p-5 bg-dark text-white hover:bg-white hover:text-dark text-Medium font-semibold;
+    }
+}

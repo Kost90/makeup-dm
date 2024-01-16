@@ -1,5 +1,5 @@
 .nav_links_container {
-    @apply hidden md:flex items-center gap-2 md:gap-5;
+    @apply hidden md:flex items-center gap-2 md:gap-5 scroll-smooth;
     p {
         @apply text-Small md:text-Large lg:text-Xlarge font-bold leading-6 hover:text-pink duration-75;
     }

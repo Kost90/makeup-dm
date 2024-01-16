@@ -31,13 +31,13 @@ function Header() {
             className="block md:hidden border-2 border-dark-gray rounded-sm p-1"
           />
           <div className={styles.nav_links_container}>
-            <Link href={"#"}>
+            <Link href={"#aboutme"} scroll={true}>
               <p>About Me</p>
             </Link>
-            <Link href={"#"}>
+            <Link href={"#services"} scroll={true}>
               <p>Services</p>
             </Link>
-            <Link href={"#"}>
+            <Link href={"#portfolio"} scroll={true}>
               <p>Portfolio</p>
             </Link>
           </div>
