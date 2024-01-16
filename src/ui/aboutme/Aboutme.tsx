@@ -4,7 +4,7 @@ function Aboutme() {
       <h1 className="text-white text-Heading3 md:text-Heading2 lg:text-Heding1 font-semibold">
         About Me
       </h1>
-      <p className="text-dark-gray text-Small md:text-Medium">
+      <p className="text-dark-gray text-Medium md:text-Large lg:text-Xlarge">
         I'm Sara Jones, a UI/UX designer dedicated to crafting intuitive and
         visually stunning digital experiences. With a passion for user-centric
         design, I transform ideas into functional and beautiful interfaces.
