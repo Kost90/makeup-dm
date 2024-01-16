@@ -5,10 +5,10 @@ function Aboutme() {
         About Me
       </h1>
       <p className="text-dark-gray text-Medium md:text-Large lg:text-Xlarge">
-        I'm Sara Jones, a UI/UX designer dedicated to crafting intuitive and
+        Im Sara Jones, a UI/UX designer dedicated to crafting intuitive and
         visually stunning digital experiences. With a passion for user-centric
         design, I transform ideas into functional and beautiful interfaces.
-        Let's collaborate and shape the future of design together.
+        Lets collaborate and shape the future of design together.
       </p>
     </div>
   );
