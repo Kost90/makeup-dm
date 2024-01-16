@@ -14,8 +14,8 @@ function ContactUs() {
           <div>
             <h1>Get in Touch</h1>
             <p>
-              Have a question or a project in mind? I'd love to hear from you.
-              Let's chat and make something amazing together.
+              Have a question or a project in mind? I d love to hear from you.
+              Let iss chat and make something amazing together.
             </p>
           </div>
           <div>
