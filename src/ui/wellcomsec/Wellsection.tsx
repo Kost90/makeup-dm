@@ -14,7 +14,7 @@ function Wellsection() {
         <h1 className="text-Heading3 md:text-Heding2 lg:text-Heding1 text-red font-semibold leading-6 md:leading-10">
           Maria Dontsova
         </h1>
-        <p className="text-xs text-dark md:text-Medium">
+        <p className="text-Medium md:text-Large lg:text-Xlarge text-dark">
           Welcome to my portfolio of captivating digital experiences. Explore my
           work and let's create something extraordinary together.
         </p>

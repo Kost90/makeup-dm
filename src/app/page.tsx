@@ -1,10 +1,12 @@
 import Container from "@/containers/Container";
 import Wellsection from "@/ui/wellcomsec/Wellsection";
 import Aboutme from "@/ui/aboutme/Aboutme";
+import Services from "@/ui/services/Services";
+import Portfolio from "@/ui/portfolio/Portfolio";
 
 export default function Home() {
   return (
-    <div className="bg-pink w-full min-h-screen">
+    <div className="w-full min-h-screen">
       <section className="bg-pink w-full py-10 md:py-20">
         <Container>
           <Wellsection />
@@ -14,6 +16,12 @@ export default function Home() {
         <Container>
           <Aboutme />
         </Container>
+      </section>
+      <section className="md:pt-16 md:pb-16 w-full pt-7 pb-7">
+        <Services/>
+      </section>
+      <section className="w-full pt-7 md:pt-16 pb-7 md:pb-16">
+      <Portfolio/>
       </section>
     </div>
   );
