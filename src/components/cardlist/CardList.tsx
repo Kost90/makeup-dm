@@ -2,7 +2,7 @@
 import Card from "./card/Card";
 import { picturesArr } from "./card/CardData";
 import { useEffect, useState } from "react";
-import styles from './CardList.module.css'
+import styles from "./CardList.module.css";
 
 const initialPictures = picturesArr.slice(0, 6);
 const limit = 6;
@@ -12,7 +12,6 @@ function CardList() {
   const [pictures, setPictures] = useState(initialPictures);
   const [index, setIndex] = useState(5);
   const [showMore, setShowMore] = useState(true);
-
 
   const handelShowMore = () => {
     if (pictures.length === 6) {
@@ -36,10 +35,10 @@ function CardList() {
 
   return (
     <>
-    <div className="grid gap-y-7 md:gap-y-16 gap-x-5 justify-center justify-items-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pb-7 md:pb-16">
-      <Card pictures={pictures} />
-    </div>
-    {showMore && (
+      <div className="grid gap-y-7 md:gap-y-16 gap-x-5 justify-center justify-items-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pb-7 md:pb-16">
+        <Card pictures={pictures} />
+      </div>
+      {showMore && (
         <button
           type="button"
           onClick={handelShowMore}
@@ -49,7 +48,6 @@ function CardList() {
         </button>
       )}
     </>
-    
   );
 }
 

@@ -1,0 +1,17 @@
+.contactus_wrapper {
+    @apply flex flex-col md:flex-row gap-8 md:gap-16;
+}
+
+.side_wrapper {
+    @apply flex flex-col gap-8;
+    h1 {
+        @apply text-Medium md:text-Large lg:text-Heading2 text-dark font-bold;
+    }
+    p {
+        @apply text-Medium md:text-Large lg:text-Xlarge text-dark;
+    }
+}
+
+.svg_wrapper {
+    @apply flex flex-row gap-3;
+}
