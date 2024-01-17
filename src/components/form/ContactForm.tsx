@@ -5,6 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import styles from "./ContactForm.module.css";
+import { motion } from "framer-motion";
 
 type Inputs = {
   name: string;
@@ -47,7 +48,10 @@ function ContactForm() {
     reset();
   };
   return (
-    <form
+    <motion.form
+      initial={{ opacity: 0, x: 20 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       onSubmit={handleSubmit(onSubmit)}
       ref={form}
       className={styles.form_wrapper}
@@ -80,7 +84,7 @@ function ContactForm() {
         {...register("message", { required: true })}
       />
       <button type={"submit"}>SEND</button>
-    </form>
+    </motion.form>
   );
 }
 

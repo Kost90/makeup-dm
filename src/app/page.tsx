@@ -8,7 +8,7 @@ import ContactUs from "@/ui/contactus/ContactUs";
 export default function Home() {
   return (
     <div className="w-full min-h-screen">
-      <section className="bg-pink w-full py-10 md:py-20">
+      <section className="bg-pink w-full md:py-20">
         <Container>
           <Wellsection />
         </Container>

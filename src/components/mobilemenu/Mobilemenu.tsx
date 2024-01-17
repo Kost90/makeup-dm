@@ -31,13 +31,13 @@ function Mobilemenu({ isOpen, onClick }: Props) {
       variants={MenuVariants}
       className={styles.div_menu}
     >
-      <Link href={"#"} onClick={onClick}>
+      <Link href={"#aboutme"} scroll={true} onClick={onClick}>
         <p>About Me</p>
       </Link>
-      <Link href={"#"} onClick={onClick}>
+      <Link href={"#services"} scroll={true} onClick={onClick}>
         <p>Services</p>
       </Link>
-      <Link href={"#"} onClick={onClick}>
+      <Link href={"#portfolio"} scroll={true} onClick={onClick}>
         <p>Portfolio</p>
       </Link>
     </motion.div>

@@ -2,6 +2,7 @@
 import Card from "./card/Card";
 import { picturesArr } from "./card/CardData";
 import { useEffect, useState } from "react";
+import Button from "../button/Button";
 import styles from "./CardList.module.css";
 
 const initialPictures = picturesArr.slice(0, 6);
@@ -39,13 +40,12 @@ function CardList() {
         <Card pictures={pictures} />
       </div>
       {showMore && (
-        <button
+        <Button
           type="button"
           onClick={handelShowMore}
           className={styles.button_load}
-        >
-          Load more
-        </button>
+          text="Load more"
+        />
       )}
     </>
   );
