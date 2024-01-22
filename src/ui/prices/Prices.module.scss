@@ -1,0 +1,15 @@
+.prices_container {
+    @apply flex flex-col items-center justify-center;
+    h3 {
+        @apply text-Large text-medium-gray font-semibold m-7;
+    }
+    ul {
+        @apply flex flex-col gap-6 md:gap-16 self-center justify-self-center;
+        li {
+            @apply text-Medium text-medium-gray list-disc w-80;
+        }
+        span{
+            @apply text-Medium text-medium-gray;
+        }
+    }
+}

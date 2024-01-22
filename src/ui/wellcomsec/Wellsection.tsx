@@ -23,8 +23,13 @@ function Wellsection() {
           Maria Dontsova
         </h1>
         <p className="text-Medium md:text-Large lg:text-Xlarge text-dark">
-          Welcome to my portfolio of captivating digital experiences. Explore my
-          work and let is create something extraordinary together.
+          Freelance mobile professinal{" "}
+          <span className="text-red font-semibold">Makeup Artist</span> based in
+          London. This is my portfolio website.
+        </p>
+        <p>
+          If you are looking for a mobile makeup artist for your special event
+          or project please feel free to get in touch.
         </p>
         <Button type="button" className={styles.button_contatc}>
           <Link href={"#contactus"} scroll={true}>
@@ -38,10 +43,14 @@ function Wellsection() {
         viewport={{ once: true }}
         className="relative hidden md:block"
       >
-        <Image src={DM} alt="svg_picture" className={styles.svg_dm} />
+        <Image
+          src={DM}
+          alt="Maria_makeup_artist_logo"
+          className={styles.svg_dm}
+        />
         <Image
           src={MariaPhoto}
-          alt="Maria_photo"
+          alt="Maria_makeup_artist_photo"
           className={styles.photo_maria}
         />
       </motion.div>

@@ -19,14 +19,9 @@ function Services() {
         <motion.h1 initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="text-Heading3 md:text-Heading2 lg:text-Heding1 font-semibold md:mb-6">
           Services
         </motion.h1>
-        <motion.p initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true, amount:0.5}} className="text-Medium md:text-Large lg:text-Xlarge text-dark md:mb-8">
-          Explore my design services, from user interface and experience to
-          prototyping and testing. Lets craft exceptional digital experiences
-          together.
-        </motion.p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 m-auto self-center gap-7 md:gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-4 m-auto self-center gap-7 md:gap-12">
         {svgArr.map((el,i) => (
           <motion.div className="flex flex-col w-60 gap-6 self-center justify-self-center" key={i} initial="hidden" whileInView="visible" viewport={{once:true, amount:0.5}} transition={{
             duration: 0.3,
