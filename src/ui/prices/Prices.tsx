@@ -39,7 +39,7 @@ function Prices() {
           viewport={{ once: true }}
         >
           {pricesData.map((el, i) => (
-            <Pricelist price={el.price} text={el.text} />
+            <Pricelist price={el.price} text={el.text} key={i}/>
           ))}
         </motion.ul>
         <motion.h3
@@ -55,7 +55,7 @@ function Prices() {
           viewport={{ once: true }}
         >
           {pricesBridal.map((el, i) => (
-            <Pricelist price={el.price} text={el.text} />
+            <Pricelist price={el.price} text={el.text} key={i}/>
           ))}
         </motion.ul>
         <motion.h3
@@ -71,7 +71,7 @@ function Prices() {
           viewport={{ once: true }}
         >
           {pricesActuaWedd.map((el, i) => (
-            <Pricelist price={el.price} text={el.text} />
+            <Pricelist price={el.price} text={el.text} key={i}/>
           ))}
         </motion.ul>
         <motion.h3
@@ -87,7 +87,7 @@ function Prices() {
           viewport={{ once: true }}
         >
           {bridalTrial.map((el, i) => (
-            <Pricelist price={el.price} text={el.text} />
+            <Pricelist price={el.price} text={el.text} key={i}/>
           ))}
         </motion.ul>
         <motion.h3
@@ -103,7 +103,7 @@ function Prices() {
           viewport={{ once: true }}
         >
           {actualWedMake.map((el, i) => (
-            <Pricelist price={el.price} text={el.text} />
+            <Pricelist price={el.price} text={el.text} key={i}/>
           ))}
         </motion.ul>
       </div>

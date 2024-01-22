@@ -27,7 +27,7 @@ function Aboutme() {
         viewport={{ once: true, amount: 0.5 }}
         className="text-dark-gray text-Medium md:text-Large lg:text-Xlarge"
       >
-        With years of experience and a keen eye for detail, I'll work with you
+        With years of experience and a keen eye for detail, I will work with you
         to create a look that will enhance your natural beauty and make you teel
         confident and phenomenal.
       </motion.p>
