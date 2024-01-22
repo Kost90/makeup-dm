@@ -1,5 +1,5 @@
 .form_wrapper {
-    @apply flex flex-col w-full p-5 gap-6;
+    @apply flex flex-col w-full p-5 gap-6 md:w-text;
     input {
         @apply p-3 max-w-lg;
     }

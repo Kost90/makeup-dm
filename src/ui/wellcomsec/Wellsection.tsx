@@ -23,7 +23,7 @@ function Wellsection() {
           Maria Dontsova
         </h1>
         <p className="text-Medium md:text-Large lg:text-Xlarge text-dark">
-          Freelance mobile professinal{" "}
+          Professinal{" "}
           <span className="text-red font-semibold">Makeup Artist</span> based in
           London. This is my portfolio website.
         </p>

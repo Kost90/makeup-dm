@@ -16,6 +16,7 @@ function Mobilemenu({ isOpen, onClick }: Props) {
     },
     visible: {
       opacity: 1,
+      zIndex:11,
       transition: { duration: 0.3 },
     },
     exit: {
