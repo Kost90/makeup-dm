@@ -4,6 +4,7 @@ import Aboutme from "@/ui/aboutme/Aboutme";
 import Services from "@/ui/services/Services";
 import Portfolio from "@/ui/portfolio/Portfolio";
 import ContactUs from "@/ui/contactus/ContactUs";
+import Prices from "@/ui/prices/Prices";
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
       </section>
       <section className="w-full pt-7 md:pt-16 pb-7 md:pb-16" id="portfolio">
       <Portfolio/>
+      </section>
+      <section className="bg-dark w-full py-10 md:py-20">
+        <Prices/>
       </section>
       <section className="bg-pink w-full pt-7 md:pt-16 pb-7 md:pb-16">
         <ContactUs/>

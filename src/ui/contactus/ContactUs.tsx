@@ -22,18 +22,18 @@ function ContactUs() {
               Get in Touch
             </h1>
             <p>
-              Have a question or a project in mind? I d love to hear from you.
-              Let iss chat and make something amazing together.
+              Have a question ? I d love to hear from you. Let iss make
+              something amazing together.
             </p>
           </div>
           <div>
             <div className={styles.svg_wrapper}>
               <Image src={Phone} alt="phone icon" />
-              <p>+1205 5872 321</p>
+              <a href="tel:+447467624734">+447467624734</a>
             </div>
             <div className={styles.svg_wrapper}>
               <Image src={MailIcon} alt="email icon" />
-              <p>contact@sarajonesdesign.com</p>
+              <a href="mailto: mboyko855@gmail.com">mboyko855@gmail.com </a>
             </div>
           </div>
         </motion.div>
