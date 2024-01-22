@@ -1,9 +1,9 @@
 .contactus_wrapper {
-  @apply flex flex-col md:flex-row gap-8 md:gap-16 m-auto;
+  @apply flex flex-col md:flex-row gap-8 md:gap-16 m-auto w-full justify-center;
 }
 
 .side_wrapper {
-  @apply flex flex-col gap-8;
+  @apply flex flex-col gap-8 md:w-text;
 }
 .side_wrapper h1 {
   @apply text-Medium md:text-Large lg:text-Heading2 text-dark font-bold;

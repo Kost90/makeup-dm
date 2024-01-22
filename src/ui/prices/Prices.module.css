@@ -8,7 +8,7 @@
   @apply flex flex-col gap-6 md:gap-16 self-center justify-self-center;
 }
 .prices_container ul li {
-  @apply text-Medium text-medium-gray list-disc w-80;
+  @apply text-Medium text-medium-gray md:list-disc w-80 list-none;
 }
 .prices_container ul span {
   @apply text-Medium text-medium-gray;

@@ -19,7 +19,7 @@ function Aboutme() {
         className="text-dark-gray text-Medium md:text-Large lg:text-Xlarge"
       >
         I am freelance mobile professional makeup artist based in london,
-        through I travel and cover Surry, Kent, Essex and Sussex.
+        though I travel and cover Surry, Kent, Essex and Sussex.
       </motion.p>
       <motion.p
         initial={{ opacity: 0, y: 20 }}
