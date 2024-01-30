@@ -22,7 +22,7 @@ function ContactUs() {
               Get in Touch
             </h1>
             <p>
-              Have a question ? I d love to hear from you. Let iss make
+              Have a question ? I am love to hear from you. Let is make
               something amazing together.
             </p>
           </div>

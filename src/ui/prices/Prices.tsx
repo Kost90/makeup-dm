@@ -95,7 +95,7 @@ function Prices() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Actualwedding day:
+          Actual wedding day:
         </motion.h3>
         <motion.ul
           initial={{ opacity: 0, y: 20 }}
